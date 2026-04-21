@@ -19,7 +19,7 @@ const TitleBar = ({ onToggleBackend, isActive }) => {
             title="Toggle Backend Interface"
           >
             <svg width="14" height="14" viewBox="0 0 14 14" className="opacity-0 group-hover/code:opacity-100 transition-opacity pointer-events-none">
-              <path d="M5 4.5L3 7l2 2.5M9 4.5L11 7l-2 2.5M8.5 3.5l-3 7" fill="none" stroke="#1e3a8a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M5 4.5L3 7l2 2.5M9 4.5L11 7l-2 2.5M8.5 3.5l-3 7" fill="none" stroke="#1e3a8a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
         </div>
