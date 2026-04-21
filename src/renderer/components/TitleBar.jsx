@@ -12,10 +12,10 @@ const TitleBar = ({ onToggleBackend, isActive }) => {
 
       <div className="flex items-center">
         {/* The Code Button */}
-        <div className="group/code no-drag">
+        <div className="group/code no-drag flex items-center">
           <button
             onClick={onToggleBackend}
-            className={`w-[12px] h-[12px] rounded-full transition-all flex items-center justify-center border-[0.5px] border-black/20 shadow-[inset_0_0.5px_1px_rgba(0,0,0,0.1)] active:brightness-75 ${isActive ? 'bg-[#007aff] shadow-lg shadow-blue-900/50' : 'bg-[#007aff]'}`}
+            className={`w-[14px] h-[14px] rounded-full transition-all flex items-center justify-center border-[0.5px] border-black/20 shadow-[inset_0_0.5px_1px_rgba(0,0,0,0.1)] active:brightness-75 ${isActive ? 'bg-[#007aff] shadow-lg shadow-blue-900/50' : 'bg-[#007aff]'}`}
             title="Toggle Backend Interface"
           >
             <svg width="12" height="12" viewBox="0 0 12 12" className="opacity-0 group-hover/code:opacity-100 transition-opacity pointer-events-none">
