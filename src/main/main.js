@@ -24,6 +24,7 @@ function createWindow() {
     width: 1200,
     height: 800,
     titleBarStyle: 'hidden',
+    trafficLightPosition: { x: 12, y: 12 },
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
@@ -64,6 +65,7 @@ function createDetachedWindow() {
     width: 600,
     height: 800,
     title: 'Backend Codegen',
+    trafficLightPosition: { x: 12, y: 12 },
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
